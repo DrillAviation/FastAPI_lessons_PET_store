@@ -8,10 +8,14 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 fastapi = "^0.115.0"
-pytest = "^8.3.3"
 uvicorn = "^0.30.6"
 pydantic = {extras = ["email"], version = "^2.0.6"}
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.35"}
 
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+pytest = "^8.3.3"
 
 [build-system]
 requires = ["poetry-core"]
