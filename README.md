@@ -28,7 +28,7 @@ poetry shell
 poetry install
 ```
 
-### 4. Запустить бота
+### 4. Запустить
 
 ```bash
 fastapi dev main.py --reload
